@@ -21,6 +21,20 @@ watch a directory. perform a command on change.
 
 `watchdir -c 'npm become-overlord --planet=earth'`
 
+## Options
+
+````
+Usage:
+  watchdir [OPTIONS]
+
+Options: 
+  -d, --dir [PATH]       Directory to watch (Default is .)
+  -c, --command STRING   Command to execute on change
+  -k, --no-color         Omit color from output
+      --debug            Show debug information
+  -h, --help             Display help and usage details
+````
+
 ## Contribute
 
 1. Fork.
