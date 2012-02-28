@@ -1,0 +1,14 @@
+{
+  "name": "watchdir",
+  "description": "watch a directory. perform a command upon change.",
+  "tags": ["util"],
+  "version": "1.0.0",
+  "author": "Mark Bao <mark@markbao.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/markbao/watchdir.git"
+  },
+  "bugs": { "url": "http://github.com/markbao/watchdir/issues" },
+  "engines": ["node >= 0.3.6"],
+  "main": "./main"
+}
