@@ -2,7 +2,7 @@
   "name": "watchdir",
   "description": "watch a directory. perform a command upon change.",
   "tags": ["util"],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Mark Bao <mark@markbao.com>",
   "contributors": [
     "Juan Pablo Buritica <juanpablo@buritica.org> (http://github.com/buritica)"
