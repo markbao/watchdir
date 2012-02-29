@@ -27,9 +27,10 @@ watch a directory. perform a command on change.
 Usage:
   watchdir [OPTIONS]
 
-Options: 
+Options:
   -d, --dir [PATH]       Directory to watch (Default is .)
   -c, --command STRING   Command to execute on change
+  -w, --watchfile        Use node's fs.watchFile instead of fs.watch (Sometimes watch fails noticing changes in files)
   -k, --no-color         Omit color from output
       --debug            Show debug information
   -h, --help             Display help and usage details
